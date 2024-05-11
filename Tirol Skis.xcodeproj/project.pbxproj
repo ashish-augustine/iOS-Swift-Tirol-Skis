@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3402602D35C9F1EAC87538BB /* Pods_Tirol_Skis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0868D5768DA544630E6D557D /* Pods_Tirol_Skis.framework */; };
+		8200C3202BB73D4500C18D48 /* FilterOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8200C31F2BB73D4500C18D48 /* FilterOption.swift */; };
+		821C40A32B90125900D6CBD5 /* FilterOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821C40A22B90125900D6CBD5 /* FilterOptionsViewController.swift */; };
+		8220C4E02B6F276B00D48090 /* ResortTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8220C4DF2B6F276B00D48090 /* ResortTableViewCell.swift */; };
+		8229CF7B2B9446BA00DFC0B9 /* ResortDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8229CF7A2B9446BA00DFC0B9 /* ResortDetailViewController.swift */; };
+		8229CF7D2B94484200DFC0B9 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8229CF7C2B94484200DFC0B9 /* GlobalConstants.swift */; };
+		8235A53B2B914A38001AD79F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8235A53A2B914A38001AD79F /* UIView+Extension.swift */; };
+		8237D9B32B994FE3006B1C8A /* DifficultyDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8237D9B22B994FE3006B1C8A /* DifficultyDistance.swift */; };
+		823B41D62BAC90D2003086D0 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823B41D52BAC90D2003086D0 /* StringExtension.swift */; };
+		824C065B2BC9FD4500E8BD6F /* Credit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824C065A2BC9FD4500E8BD6F /* Credit.swift */; };
+		824C065D2BC9FDA000E8BD6F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824C065C2BC9FDA000E8BD6F /* NetworkManager.swift */; };
+		8269D16B2B6EE09000A1DEAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269D16A2B6EE09000A1DEAA /* AppDelegate.swift */; };
+		8269D16D2B6EE09000A1DEAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269D16C2B6EE09000A1DEAA /* SceneDelegate.swift */; };
+		8269D1742B6EE09000A1DEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8269D1732B6EE09000A1DEAA /* Assets.xcassets */; };
+		8269D1772B6EE09000A1DEAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8269D1752B6EE09000A1DEAA /* LaunchScreen.storyboard */; };
+		8269D1852B6EE0E000A1DEAA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269D1842B6EE0E000A1DEAA /* HomeViewController.swift */; };
+		8269D1872B6EE0F900A1DEAA /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269D1862B6EE0F900A1DEAA /* Resort.swift */; };
+		8269D1892B6EF47600A1DEAA /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269D1882B6EF47600A1DEAA /* UIColorExtension.swift */; };
+		8269D1922B6F04B800A1DEAA /* Ruda-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8269D18C2B6F04B800A1DEAA /* Ruda-Regular.ttf */; };
+		8269D1932B6F04B800A1DEAA /* Ruda-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8269D18D2B6F04B800A1DEAA /* Ruda-Black.ttf */; };
+		8269D1942B6F04B800A1DEAA /* Ruda-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8269D18E2B6F04B800A1DEAA /* Ruda-SemiBold.ttf */; };
+		8269D1952B6F04B800A1DEAA /* Ruda-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8269D18F2B6F04B800A1DEAA /* Ruda-Bold.ttf */; };
+		8269D1962B6F04B800A1DEAA /* Ruda-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8269D1902B6F04B800A1DEAA /* Ruda-Medium.ttf */; };
+		8269D1972B6F04B800A1DEAA /* Ruda-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8269D1912B6F04B800A1DEAA /* Ruda-ExtraBold.ttf */; };
+		8269D19A2B6F05D300A1DEAA /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269D1992B6F05D300A1DEAA /* UIFontExtension.swift */; };
+		8269D19C2B6F0EB500A1DEAA /* HomeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269D19B2B6F0EB500A1DEAA /* HomeConstants.swift */; };
+		8269D1A02B6F137C00A1DEAA /* UIStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269D19F2B6F137C00A1DEAA /* UIStringExtension.swift */; };
+		82811C7A2BD87D08008A4FD7 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82811C792BD87D08008A4FD7 /* ContainerViewController.swift */; };
+		82811C7C2BD87D11008A4FD7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82811C7B2BD87D11008A4FD7 /* MenuViewController.swift */; };
+		82811C7F2BD884B9008A4FD7 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82811C7E2BD884B9008A4FD7 /* Protocols.swift */; };
+		82811C842BD88CC2008A4FD7 /* MenuOptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82811C832BD88CC2008A4FD7 /* MenuOptionTableViewCell.swift */; };
+		82811C862BD89133008A4FD7 /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82811C852BD89133008A4FD7 /* MenuOption.swift */; };
+		82811C882BD89E7D008A4FD7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82811C872BD89E7D008A4FD7 /* AboutViewController.swift */; };
+		828B8E752BC8B74300B01DA0 /* GlobalConstantsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828B8E742BC8B74300B01DA0 /* GlobalConstantsExtension.swift */; };
+		82B07E822BB0909A008232F8 /* CreditsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B07E812BB0909A008232F8 /* CreditsTableViewCell.swift */; };
+		82B111912BB0A0A600A0C40A /* FilterSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B111902BB0A0A600A0C40A /* FilterSection.swift */; };
+		82B111932BB0A6E900A0C40A /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B111922BB0A6E900A0C40A /* FilterView.swift */; };
+		82B111952BB0AF6900A0C40A /* FilterOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B111942BB0AF6900A0C40A /* FilterOptionView.swift */; };
+		82BEC0E92B9522B700109A35 /* Difficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BEC0E82B9522B700109A35 /* Difficulty.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0868D5768DA544630E6D557D /* Pods_Tirol_Skis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tirol_Skis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4419D6179967E921405F324B /* Pods-Tirol Skis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tirol Skis.release.xcconfig"; path = "Target Support Files/Pods-Tirol Skis/Pods-Tirol Skis.release.xcconfig"; sourceTree = "<group>"; };
+		5F7100C75BEC882799C66C09 /* Pods-Tirol Skis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tirol Skis.debug.xcconfig"; path = "Target Support Files/Pods-Tirol Skis/Pods-Tirol Skis.debug.xcconfig"; sourceTree = "<group>"; };
+		8200C31F2BB73D4500C18D48 /* FilterOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterOption.swift; sourceTree = "<group>"; };
+		821C40A22B90125900D6CBD5 /* FilterOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterOptionsViewController.swift; sourceTree = "<group>"; };
+		8220C4DF2B6F276B00D48090 /* ResortTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortTableViewCell.swift; sourceTree = "<group>"; };
+		8229CF7A2B9446BA00DFC0B9 /* ResortDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortDetailViewController.swift; sourceTree = "<group>"; };
+		8229CF7C2B94484200DFC0B9 /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		8235A53A2B914A38001AD79F /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		8237D9B22B994FE3006B1C8A /* DifficultyDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyDistance.swift; sourceTree = "<group>"; };
+		823B41D52BAC90D2003086D0 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		824C065A2BC9FD4500E8BD6F /* Credit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credit.swift; sourceTree = "<group>"; };
+		824C065C2BC9FDA000E8BD6F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8269D1672B6EE09000A1DEAA /* Tirol Skis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tirol Skis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8269D16A2B6EE09000A1DEAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8269D16C2B6EE09000A1DEAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8269D1732B6EE09000A1DEAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8269D1762B6EE09000A1DEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8269D1782B6EE09000A1DEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8269D1842B6EE0E000A1DEAA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8269D1862B6EE0F900A1DEAA /* Resort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
+		8269D1882B6EF47600A1DEAA /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		8269D18C2B6F04B800A1DEAA /* Ruda-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ruda-Regular.ttf"; sourceTree = "<group>"; };
+		8269D18D2B6F04B800A1DEAA /* Ruda-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ruda-Black.ttf"; sourceTree = "<group>"; };
+		8269D18E2B6F04B800A1DEAA /* Ruda-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ruda-SemiBold.ttf"; sourceTree = "<group>"; };
+		8269D18F2B6F04B800A1DEAA /* Ruda-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ruda-Bold.ttf"; sourceTree = "<group>"; };
+		8269D1902B6F04B800A1DEAA /* Ruda-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ruda-Medium.ttf"; sourceTree = "<group>"; };
+		8269D1912B6F04B800A1DEAA /* Ruda-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ruda-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8269D1992B6F05D300A1DEAA /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIFontExtension.swift; path = "Tirol Skis/Modules/Home/UIFontExtension.swift"; sourceTree = SOURCE_ROOT; };
+		8269D19B2B6F0EB500A1DEAA /* HomeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeConstants.swift; sourceTree = "<group>"; };
+		8269D19F2B6F137C00A1DEAA /* UIStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStringExtension.swift; sourceTree = "<group>"; };
+		82811C792BD87D08008A4FD7 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		82811C7B2BD87D11008A4FD7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		82811C7E2BD884B9008A4FD7 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		82811C832BD88CC2008A4FD7 /* MenuOptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionTableViewCell.swift; sourceTree = "<group>"; };
+		82811C852BD89133008A4FD7 /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
+		82811C872BD89E7D008A4FD7 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		828B8E742BC8B74300B01DA0 /* GlobalConstantsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstantsExtension.swift; sourceTree = "<group>"; };
+		82B07E812BB0909A008232F8 /* CreditsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsTableViewCell.swift; sourceTree = "<group>"; };
+		82B111902BB0A0A600A0C40A /* FilterSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSection.swift; sourceTree = "<group>"; };
+		82B111922BB0A6E900A0C40A /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		82B111942BB0AF6900A0C40A /* FilterOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterOptionView.swift; sourceTree = "<group>"; };
+		82BEC0E82B9522B700109A35 /* Difficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Difficulty.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8269D1642B6EE09000A1DEAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3402602D35C9F1EAC87538BB /* Pods_Tirol_Skis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C9BE95D2E4BE5C60BC7E43D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0868D5768DA544630E6D557D /* Pods_Tirol_Skis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AA0CC8865B11DA171B6B757 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F7100C75BEC882799C66C09 /* Pods-Tirol Skis.debug.xcconfig */,
+				4419D6179967E921405F324B /* Pods-Tirol Skis.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		821C40A12B90124300D6CBD5 /* FloatingPanels */ = {
+			isa = PBXGroup;
+			children = (
+				8235A53D2B914D89001AD79F /* Filter */,
+			);
+			path = FloatingPanels;
+			sourceTree = "<group>";
+		};
+		8220C4DE2B6F275E00D48090 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				82B07E812BB0909A008232F8 /* CreditsTableViewCell.swift */,
+				8220C4DF2B6F276B00D48090 /* ResortTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8229CF792B9446A500DFC0B9 /* ResortDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8229CF7A2B9446BA00DFC0B9 /* ResortDetailViewController.swift */,
+			);
+			path = ResortDetail;
+			sourceTree = "<group>";
+		};
+		8235A53D2B914D89001AD79F /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				821C40A22B90125900D6CBD5 /* FilterOptionsViewController.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		8237D9B12B994FC5006B1C8A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8237D9B22B994FE3006B1C8A /* DifficultyDistance.swift */,
+				82B111922BB0A6E900A0C40A /* FilterView.swift */,
+				82B111942BB0AF6900A0C40A /* FilterOptionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8269D15E2B6EE09000A1DEAA = {
+			isa = PBXGroup;
+			children = (
+				8269D1692B6EE09000A1DEAA /* Tirol Skis */,
+				8269D1682B6EE09000A1DEAA /* Products */,
+				7AA0CC8865B11DA171B6B757 /* Pods */,
+				3C9BE95D2E4BE5C60BC7E43D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8269D1682B6EE09000A1DEAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8269D1672B6EE09000A1DEAA /* Tirol Skis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8269D1692B6EE09000A1DEAA /* Tirol Skis */ = {
+			isa = PBXGroup;
+			children = (
+				8269D17E2B6EE09600A1DEAA /* Delegates */,
+				8269D18B2B6F049D00A1DEAA /* Fonts */,
+				8269D18A2B6EF48500A1DEAA /* Helpers */,
+				8269D1752B6EE09000A1DEAA /* LaunchScreen.storyboard */,
+				8269D1812B6EE0BF00A1DEAA /* Models */,
+				8269D1822B6EE0C200A1DEAA /* Modules */,
+				8269D17F2B6EE0B100A1DEAA /* Resources */,
+				82811C7D2BD88499008A4FD7 /* Utils */,
+			);
+			path = "Tirol Skis";
+			sourceTree = "<group>";
+		};
+		8269D17E2B6EE09600A1DEAA /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				8269D16A2B6EE09000A1DEAA /* AppDelegate.swift */,
+				8269D16C2B6EE09000A1DEAA /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		8269D17F2B6EE0B100A1DEAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8269D1732B6EE09000A1DEAA /* Assets.xcassets */,
+				8269D1782B6EE09000A1DEAA /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8269D1802B6EE0BA00A1DEAA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				828B8E742BC8B74300B01DA0 /* GlobalConstantsExtension.swift */,
+				823B41D52BAC90D2003086D0 /* StringExtension.swift */,
+				8269D1882B6EF47600A1DEAA /* UIColorExtension.swift */,
+				8269D1992B6F05D300A1DEAA /* UIFontExtension.swift */,
+				8269D19F2B6F137C00A1DEAA /* UIStringExtension.swift */,
+				8235A53A2B914A38001AD79F /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8269D1812B6EE0BF00A1DEAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				824C065A2BC9FD4500E8BD6F /* Credit.swift */,
+				82BEC0E82B9522B700109A35 /* Difficulty.swift */,
+				8200C31F2BB73D4500C18D48 /* FilterOption.swift */,
+				82B111902BB0A0A600A0C40A /* FilterSection.swift */,
+				82811C852BD89133008A4FD7 /* MenuOption.swift */,
+				8269D1862B6EE0F900A1DEAA /* Resort.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8269D1822B6EE0C200A1DEAA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				82811C892BD89E84008A4FD7 /* About */,
+				82811C812BD88C99008A4FD7 /* Container */,
+				8269D1832B6EE0D300A1DEAA /* Home */,
+				82811C802BD88C86008A4FD7 /* Menu */,
+				8229CF792B9446A500DFC0B9 /* ResortDetail */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8269D1832B6EE0D300A1DEAA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8220C4DE2B6F275E00D48090 /* Cells */,
+				821C40A12B90124300D6CBD5 /* FloatingPanels */,
+				8269D19B2B6F0EB500A1DEAA /* HomeConstants.swift */,
+				8269D1842B6EE0E000A1DEAA /* HomeViewController.swift */,
+				8237D9B12B994FC5006B1C8A /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8269D18A2B6EF48500A1DEAA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8269D1802B6EE0BA00A1DEAA /* Extensions */,
+				8229CF7C2B94484200DFC0B9 /* GlobalConstants.swift */,
+				824C065C2BC9FDA000E8BD6F /* NetworkManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8269D18B2B6F049D00A1DEAA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8269D1982B6F04BE00A1DEAA /* Ruda */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8269D1982B6F04BE00A1DEAA /* Ruda */ = {
+			isa = PBXGroup;
+			children = (
+				8269D18D2B6F04B800A1DEAA /* Ruda-Black.ttf */,
+				8269D18F2B6F04B800A1DEAA /* Ruda-Bold.ttf */,
+				8269D1912B6F04B800A1DEAA /* Ruda-ExtraBold.ttf */,
+				8269D1902B6F04B800A1DEAA /* Ruda-Medium.ttf */,
+				8269D18C2B6F04B800A1DEAA /* Ruda-Regular.ttf */,
+				8269D18E2B6F04B800A1DEAA /* Ruda-SemiBold.ttf */,
+			);
+			path = Ruda;
+			sourceTree = "<group>";
+		};
+		82811C7D2BD88499008A4FD7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				82811C7E2BD884B9008A4FD7 /* Protocols.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		82811C802BD88C86008A4FD7 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				82811C822BD88CB5008A4FD7 /* Cells */,
+				82811C7B2BD87D11008A4FD7 /* MenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		82811C812BD88C99008A4FD7 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				82811C792BD87D08008A4FD7 /* ContainerViewController.swift */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		82811C822BD88CB5008A4FD7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				82811C832BD88CC2008A4FD7 /* MenuOptionTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		82811C892BD89E84008A4FD7 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				82811C872BD89E7D008A4FD7 /* AboutViewController.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8269D1662B6EE09000A1DEAA /* Tirol Skis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8269D17B2B6EE09000A1DEAA /* Build configuration list for PBXNativeTarget "Tirol Skis" */;
+			buildPhases = (
+				1A1FD9C86ED59FA6B02A023F /* [CP] Check Pods Manifest.lock */,
+				8269D1632B6EE09000A1DEAA /* Sources */,
+				8269D1642B6EE09000A1DEAA /* Frameworks */,
+				8269D1652B6EE09000A1DEAA /* Resources */,
+				AF0589ECF810C1BA4072C8FC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tirol Skis";
+			productName = "Tirol Skis";
+			productReference = 8269D1672B6EE09000A1DEAA /* Tirol Skis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8269D15F2B6EE09000A1DEAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					8269D1662B6EE09000A1DEAA = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 8269D1622B6EE09000A1DEAA /* Build configuration list for PBXProject "Tirol Skis" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8269D15E2B6EE09000A1DEAA;
+			productRefGroup = 8269D1682B6EE09000A1DEAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8269D1662B6EE09000A1DEAA /* Tirol Skis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8269D1652B6EE09000A1DEAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8269D1932B6F04B800A1DEAA /* Ruda-Black.ttf in Resources */,
+				8269D1952B6F04B800A1DEAA /* Ruda-Bold.ttf in Resources */,
+				8269D1772B6EE09000A1DEAA /* LaunchScreen.storyboard in Resources */,
+				8269D1942B6F04B800A1DEAA /* Ruda-SemiBold.ttf in Resources */,
+				8269D1972B6F04B800A1DEAA /* Ruda-ExtraBold.ttf in Resources */,
+				8269D1922B6F04B800A1DEAA /* Ruda-Regular.ttf in Resources */,
+				8269D1742B6EE09000A1DEAA /* Assets.xcassets in Resources */,
+				8269D1962B6F04B800A1DEAA /* Ruda-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A1FD9C86ED59FA6B02A023F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tirol Skis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF0589ECF810C1BA4072C8FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tirol Skis/Pods-Tirol Skis-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tirol Skis/Pods-Tirol Skis-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tirol Skis/Pods-Tirol Skis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8269D1632B6EE09000A1DEAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B111932BB0A6E900A0C40A /* FilterView.swift in Sources */,
+				8235A53B2B914A38001AD79F /* UIView+Extension.swift in Sources */,
+				8229CF7D2B94484200DFC0B9 /* GlobalConstants.swift in Sources */,
+				823B41D62BAC90D2003086D0 /* StringExtension.swift in Sources */,
+				8229CF7B2B9446BA00DFC0B9 /* ResortDetailViewController.swift in Sources */,
+				82811C862BD89133008A4FD7 /* MenuOption.swift in Sources */,
+				8269D19A2B6F05D300A1DEAA /* UIFontExtension.swift in Sources */,
+				82B111912BB0A0A600A0C40A /* FilterSection.swift in Sources */,
+				82B07E822BB0909A008232F8 /* CreditsTableViewCell.swift in Sources */,
+				821C40A32B90125900D6CBD5 /* FilterOptionsViewController.swift in Sources */,
+				8269D16B2B6EE09000A1DEAA /* AppDelegate.swift in Sources */,
+				8200C3202BB73D4500C18D48 /* FilterOption.swift in Sources */,
+				82811C7A2BD87D08008A4FD7 /* ContainerViewController.swift in Sources */,
+				82811C7F2BD884B9008A4FD7 /* Protocols.swift in Sources */,
+				8220C4E02B6F276B00D48090 /* ResortTableViewCell.swift in Sources */,
+				8269D16D2B6EE09000A1DEAA /* SceneDelegate.swift in Sources */,
+				8269D1872B6EE0F900A1DEAA /* Resort.swift in Sources */,
+				8269D1A02B6F137C00A1DEAA /* UIStringExtension.swift in Sources */,
+				82811C882BD89E7D008A4FD7 /* AboutViewController.swift in Sources */,
+				8269D1852B6EE0E000A1DEAA /* HomeViewController.swift in Sources */,
+				828B8E752BC8B74300B01DA0 /* GlobalConstantsExtension.swift in Sources */,
+				824C065B2BC9FD4500E8BD6F /* Credit.swift in Sources */,
+				8269D19C2B6F0EB500A1DEAA /* HomeConstants.swift in Sources */,
+				82B111952BB0AF6900A0C40A /* FilterOptionView.swift in Sources */,
+				82BEC0E92B9522B700109A35 /* Difficulty.swift in Sources */,
+				824C065D2BC9FDA000E8BD6F /* NetworkManager.swift in Sources */,
+				8269D1892B6EF47600A1DEAA /* UIColorExtension.swift in Sources */,
+				82811C842BD88CC2008A4FD7 /* MenuOptionTableViewCell.swift in Sources */,
+				82811C7C2BD87D11008A4FD7 /* MenuViewController.swift in Sources */,
+				8237D9B32B994FE3006B1C8A /* DifficultyDistance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8269D1752B6EE09000A1DEAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8269D1762B6EE09000A1DEAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8269D1792B6EE09000A1DEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8269D17A2B6EE09000A1DEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8269D17C2B6EE09000A1DEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F7100C75BEC882799C66C09 /* Pods-Tirol Skis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9Y24J4DJY;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tirol Skis/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TirolSkis.TirolSkis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8269D17D2B6EE09000A1DEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4419D6179967E921405F324B /* Pods-Tirol Skis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9Y24J4DJY;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tirol Skis/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TirolSkis.TirolSkis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8269D1622B6EE09000A1DEAA /* Build configuration list for PBXProject "Tirol Skis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8269D1792B6EE09000A1DEAA /* Debug */,
+				8269D17A2B6EE09000A1DEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8269D17B2B6EE09000A1DEAA /* Build configuration list for PBXNativeTarget "Tirol Skis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8269D17C2B6EE09000A1DEAA /* Debug */,
+				8269D17D2B6EE09000A1DEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8269D15F2B6EE09000A1DEAA /* Project object */;
+}
