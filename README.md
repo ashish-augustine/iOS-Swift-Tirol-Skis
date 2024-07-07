@@ -1,6 +1,7 @@
 # Tirol-Skis
+The Tirol Ski Resort Finder helps you fnd your favorite ski resort & navigate to the same.
 
-Ski Resort Finder
+
 # Tirol-Skis
 ![0x0ss-2](https://github.com/ashish-augustine/iOS-tirol-skis/assets/2153396/606b4a8f-5770-4172-a467-e9f64ddf9d9c)
 ![0x0ss-3](https://github.com/ashish-augustine/iOS-tirol-skis/assets/2153396/ebaab33d-d8b6-4fb1-b45e-942e22e0c26e)
