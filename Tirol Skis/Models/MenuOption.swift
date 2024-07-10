@@ -2,7 +2,7 @@
 //  MenuOption.swift
 //  Tirol Skis
 //
-//  Created by Binaya Thapa Magar on 23/04/2024.
+//  Created by Ashish Augustine on 23/04/2024.
 //
 
 import UIKit

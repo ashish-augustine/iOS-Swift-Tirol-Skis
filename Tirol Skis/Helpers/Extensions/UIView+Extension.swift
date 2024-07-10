@@ -2,7 +2,7 @@
 //  UIView+Extension.swift
 //  Foodmandu
 //
-//  Created by Binaya Thapa Magar on 29/02/2024.
+//  Created by Ashish Augustine on 29/02/2024.
 //  Copyright © 2021 Ekbana. All rights reserved.
 //
 

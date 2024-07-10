@@ -2,7 +2,7 @@
 //  Credit.swift
 //  Tirol Skis
 //
-//  Created by Binaya Thapa Magar on 12/04/2024.
+//  Created by Ashish Augustine on 12/04/2024.
 //
 
 import Foundation

@@ -2,7 +2,7 @@
 //  FilterOptionsViewController.swift
 //  Tirol Skis
 //
-//  Created by Binaya Thapa Magar on 28/02/2024.
+//  Created by Ashish Augustine on 28/02/2024.
 //
 
 import UIKit

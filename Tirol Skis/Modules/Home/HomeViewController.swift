@@ -2,7 +2,7 @@
 //  HomeViewController.swift
 //  Tirol Ski Finder
 //
-//  Created by Binaya Thapa Magar on 21/01/2024.
+//  Created by Ashish Augustine on 21/01/2024.
 //
 
 import UIKit

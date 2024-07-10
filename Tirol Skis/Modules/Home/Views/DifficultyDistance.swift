@@ -2,7 +2,7 @@
 //  DifficultyDistance.swift
 //  Tirol Skis
 //
-//  Created by Binaya Thapa Magar on 06/03/2024.
+//  Created by Ashish Augustine on 06/03/2024.
 //
 
 import UIKit

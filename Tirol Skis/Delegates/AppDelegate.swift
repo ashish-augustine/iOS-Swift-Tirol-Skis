@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Tirol Skis
 //
-//  Created by Binaya Thapa Magar on 03/02/2024.
+//  Created by Ashish Augustine on 03/02/2024.
 //
 
 import UIKit

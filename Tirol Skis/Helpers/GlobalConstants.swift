@@ -2,7 +2,7 @@
 //  GlobalConstant.swift
 //  Tirol Skis
 //
-//  Created by Binaya Thapa Magar on 03/03/2024.
+//  Created by Ashish Augustine on 03/03/2024.
 //
 
 import Foundation

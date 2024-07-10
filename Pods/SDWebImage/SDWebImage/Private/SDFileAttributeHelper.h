@@ -1,7 +1,7 @@
 //
 //  This file is from https://gist.github.com/zydeco/6292773
 //
-//  Created by Jesús A. Álvarez on 2008-12-17.
+//  Created by Ashish Augustine on 2008-12-17.
 //  Copyright 2008-2009 namedfork.net. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  FilterOption.swift
 //  Tirol Skis
 //
-//  Created by Binaya Thapa Magar on 29/03/2024.
+//  Created by Ashish Augustine on 29/03/2024.
 //
 
 import Foundation
