@@ -12,4 +12,4 @@ Swift, UIKit, Core Location, Core Graphics
 
  Copyrights - Ashish Augustine
 
-# [Appstore link:](https://appstoreconnect.apple.com/apps/6499279348/distribution/ios/version/deliverable) 
+# [Appstore link:](https://appstoreconnect.apple.com/apps/6499279348/distribution/ios/version/deliverable) https://appstoreconnect.apple.com/apps/6499279348/distribution/ios/version/deliverable
