@@ -13,4 +13,4 @@ Swift, UIKit, Core Location, Core Graphics
 ©Ashish Augustine
 
 # Download from the Appstore: 
-###  [https://appstoreconnect.apple.com/apps/6499279348](https://appstoreconnect.apple.com/apps/6499279348/distribution/ios/version/deliverable)
+###  [https://appstoreconnect.apple.com/apps/6499279348](https://apps.apple.com/us/app/tirol-skis/id6499279348)
